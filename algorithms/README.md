@@ -72,7 +72,7 @@ How many times is something executed based on input size
 [Big-O Time Complexity Calculation](./Big-O%20notation/sum.ts)
 
 
-![Big-O Time Complexity Notation](./static/Big-O%20Notation.png)
+![Big-O Time Complexity Notation](../static/Big-O%20Notation.png)
 
 ### Look for in the Code
 - Single line of code not dependent on input size - e.g. multiplication - Constant - O(1)
