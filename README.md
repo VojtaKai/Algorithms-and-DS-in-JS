@@ -129,5 +129,35 @@ Note: If you use an iteration over an array inside the callback function of forE
 ## Algo categories 
 - [Math](./1_Math_Algorithms/README.md)
 - [Search](./2_Search_Algorithms/README.md)
-- Sort
-- Misc - algos and problem solving
+- [Sort](./3_Sort_Algorithms/README.md)
+- [Misc](./4_Misc_Algorithms/README.md)
+
+
+## Algorithm design techniques
+### Bruteforce
+Simple and exhaustive technique that evaluates every possible outcome to find the best solution. E.g. Linear search
+
+### Greedy
+Choose the best option at the current time, without any consideration for the future. E.g. Dijkstra's algorithm, Prim's algorithm and Kruskal's algorithm (those three are applicable on graph datastructure)
+
+### Divide and Conquer
+Divide the problem into smaller sub=problems. Each sub-problem is then solved and the partial solutions are recombined to determine the overal solution. E.g. Binary Search, Quick Sort, Merge Sort, Tower of Hanoi
+
+### Dynamic Progarmming
+Similar to Divide and Conquer in a sense that you divide the problem into smaller problem.
+
+Divide the problem into smaller sub problems. Break it down into smaller but overlapping sub problems. Store the result and reuse it for the same sub problems (basically a cache of previous results). This is called memoization and is an optimization technique that improves the time complexity of your algorithm. E.g. Fibonacci number and climbing staircase
+
+### Backtracking
+Similar to Bruteforce
+
+You generate all possible solutions. Check if the solution satisfies all the given constraints and only then you proceed with generating subsequent solutions. If the constraints are not satisfied, backtrack and go on a different path to find the solution. E.g. N-Queens problem (where the queens have to be setup on the chess board in such way they do not threaten each other)
+
+## Next Steps
+Solve more problems and determine time complexities for each
+
+Examples
+Finding GCD (greatest common denominator) using Euclidian algorithm
+Finding permutations and combinations of a list of numbers
+Finding the longers common substring in a given string
+Knapsack problem
