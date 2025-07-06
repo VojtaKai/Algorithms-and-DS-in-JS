@@ -1,4 +1,5 @@
 namespace Queue {
+    // Optimized queue implementation using array and pointers
     class Queue {
         constructor(private items: {[key: string]: any} = {}, private head = 0, private tail = 0) {}
 

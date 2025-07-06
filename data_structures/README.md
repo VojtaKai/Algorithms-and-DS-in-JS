@@ -36,3 +36,11 @@ Deeper understanding of already known concepts, e.g. DOM - tree data structure, 
 - Trees
 - Graphs
 
+[More about custom DS](./custom/README.md)
+
+### Further Learning
+- queue -> Priority queue
+- linked list -> Circular linked list
+- trees -> AVL trees, red black trees and tries
+- graph -> Directed acyclic graphs (also useful in the real world)
+- graph algorithms - Prim's, Kruskal's and Floyd's algorithms

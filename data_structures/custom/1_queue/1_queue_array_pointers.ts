@@ -1,4 +1,5 @@
 namespace Queue {
+    // Optimized queue implementation using array and pointers
     class Queue {
         constructor(private items: any[] = [], private head = 0, private tail = 0) {}
 
@@ -8,6 +9,7 @@ namespace Queue {
         }
 
         dequeue() {
+            // constant time complexity O(1)
             const item = this.items[this.head]
             delete this.items[this.head]
             this.head++
